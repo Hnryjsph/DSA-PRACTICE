@@ -107,3 +107,54 @@ Ann object has both a state and a behaivour
         - Groe the table every time a collsion occurs and increase the complexity of hash fucntion and redistribute the values to new addresses
 
 # HEAPS
+
+
+# DYNAMIC PRGRAMMING
+     - What is the story behind the technique
+
+    ## Climbing stairs
+        - Where you a dp table where you use which is an array where each index is a point on the sub problem, where the if the last two sub problem summation gives you the solution to the next two sub problems, but you need to have a base case for the problem
+
+    ## Andrey Grehov
+
+        - Dynamic programming is a technique to solve a certain type of problem
+
+        - for a problem to be solved by DP is has to have some properties 
+
+        - Dp exists tp solve many problems in polynomial time {O(n^c)} instead of exponetial time {O(2^n)}
+
+        - DP is an optimization technqiue 
+
+        - Properties that accept DP 
+            - Optimal Substructure
+            - Overlapping Subproblems
+        
+        - A substructure is a subproblem of the main problem
+
+        - When it is possible to break a problem and when the a subproblem can solve the next problem then the problem has optimal substructure 
+
+        - Overlapping subproblem - is when a subproblem is being dependened on by many subproblem
+
+
+        - DP problems can be used to solve
+            - Combinatoric problems 
+            - Optimization problems 
+
+        
+        - Combinatoric problems answer the question how many
+            - Examples
+                - how many ways to make a change 
+                - how many ways to traverse a graph
+                - how many ways to get from point A to B
+        
+        - Optimization problems - Intrested in finding a strategy which minimizes or maximizes some function
+
+            - Examples
+                 -What is the minimum number of steps needed to get from point A to point B
+                 - What is the maximum profit gained by buying ans selling a stock
+                 - What is the minimum cost to travel from New York to Mumbai 
+
+        DP is an algorthmic technique to solve combinatoric and optimization problems utilizing the fact optimal solution to the overall problem depends on the optimal solution to its overlapping subproblems
+
+
+        

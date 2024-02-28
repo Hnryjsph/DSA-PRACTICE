@@ -27,6 +27,14 @@ Follow-up: Could you solve the problem in linear time and in O(1) space?
 """
 
 
+""""
+Boyer moore majority vting algorithm is a streaming algorithm
+Boyer Moore algo only works if you want to to find the element that
+appears more than n/2 times
+
+Streaming Algorithms are were the the data is presented a sequesnce of inputs
+and it need to be examined in only a few passes, typically just one
+"""
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
