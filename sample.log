@@ -1,0 +1,19 @@
+2024-02-29 13:22:54,459:__main__:ERROR:Tried to divide by zero
+2024-02-29 13:24:00,317:__main__:ERROR:Tried to divide by zero
+Traceback (most recent call last):
+  File "d:\projects\DSA-PRACTICE\logging_tutorial.py", line 43, in divide
+    result = x/y
+             ~^~
+ZeroDivisionError: division by zero
+2024-02-29 13:26:37,029:__main__:ERROR:Tried to divide by zero
+Traceback (most recent call last):
+  File "d:\projects\DSA-PRACTICE\logging_tutorial.py", line 47, in divide
+    result = x/y
+             ~^~
+ZeroDivisionError: division by zero
+2024-02-29 13:27:26,821:__main__:ERROR:Tried to divide by zero
+Traceback (most recent call last):
+  File "d:\projects\DSA-PRACTICE\logging_tutorial.py", line 47, in divide
+    result = x/y
+             ~^~
+ZeroDivisionError: division by zero
