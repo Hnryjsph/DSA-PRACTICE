@@ -157,4 +157,66 @@ Ann object has both a state and a behaivour
         DP is an algorthmic technique to solve combinatoric and optimization problems utilizing the fact optimal solution to the overall problem depends on the optimal solution to its overlapping subproblems
 
 
+
+# Climbing stair problem
+
+    - Memoization - is where the result of a computation is cached and used latter in the computation
+
+    - Climbing stairs wants to know how many ways to climb to the top,
+
+    - Break down the problem to the goal, the position actions they can take and each action you cann give it a value of 1,
+
+    - Then after that ask your self the question what is the objective, and the objective in this case is to reach the top so how ways from my possble ways can i reach the top, In simple terms when am at my objective,from that point of view how can i reach the objective with the action i have available, then after findout if the relation of the ways follow the rule of sum or the rule of product. 
+
+
+
+    - Express the goal as an objective function
+
+    - Objective function is one that you want to minimize or maximize
+
+    - F(i)-the number of steps to reach the ith stair
+
+    - Write an objective function with its definition
+
+    - Break down the problem into small subproblems and identify base case
+
+    - Base Cases
+        - F(2) = 2
+        - F(1) = 1
+        - F(0) = 1 (Is equal to one beacuse there is one way to get to the ith stair by doing nothing)
+
+    - Write down the recurrence relation for the optimized pobjective relation
+
+    - Sometimes you can observe the pattern by solvingthe problem for a few input values
+
+    - F(n) = F(n-1) + F(n-2)
+
+    - It seems that when you go to the top of the stair you find out that the options you have to complete your final task of reaching the top stair are two and you pick scenario where you have only one option to complete you task and find out where in the hirechary you can complete that task and then do that for all actions you have to complete the task and then determine if the actions follow the rule of sum or product annd then each action should be expressed as an action complete to rerach that point in the hireachy
+
+
+    ## Steps to solve a dp problem
+
+        1. Define objective fucntion
+        2. Identify base cases 
+            - Base cases ar ethe starting points of the problem
+        3. Recurrence Relation
+            - It is the transition function that enables youy to move from one sub problem to another
+        4. Order of Computation 
+
+            - In order to solve the problem you have start to solve subproblems from some order either from the bottop-up
+            or top-down
+
+            - the top/up means the point where you have found the solution
+
+        5. Location of the answer
+            - You have to find out where in the sub problem hierachy the solution is, is it in the top or is it in the bottom of the hireachy 
+
+        - Transition function takes the problem from one state to another 
+
+
+    - **Rule of Sum** - State taht if there are n choices for one action 
+    and m choice for another action and the two actions cannot be done at tthe same time then there are n+m ways to choose one of theses adctions
+
+    - **Rule of Product** - If there are n options for doing one thing and m options for doing another thing and they can be done together then the total combinations are nxm
+    
         
