@@ -218,5 +218,7 @@ Ann object has both a state and a behaivour
     and m choice for another action and the two actions cannot be done at tthe same time then there are n+m ways to choose one of theses adctions
 
     - **Rule of Product** - If there are n options for doing one thing and m options for doing another thing and they can be done together then the total combinations are nxm
+
+    things
     
         
